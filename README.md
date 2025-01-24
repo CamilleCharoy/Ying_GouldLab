@@ -10,7 +10,8 @@ To use this script you need to have the following FIJI plugins installed as well
     - CSBDeep
     - Stardist
     - ResultsToExcel
- To install the plugins navigate to Help > Update then click on Manage Update Sites. From there check the boxes for CSBDeep, Stardist and ResultToExcel and click Apply and Close, then click Apply Changes. FIJI needs to be closed for the newly installed plugins to be available.  
+ To install the plugins navigate to Help > Update then click on Manage Update Sites. From there check the boxes for CSBDeep, Stardist and ResultToExcel and click Apply and Close, then click Apply Changes. 
+ FIJI needs to be closed for the newly installed plugins to be available.  
  
 ### Script:
 The script can be saved in the script folder of the FIJI installation, scripts saved in a folder there will stay visible at the bottom of the Plugins menu.
@@ -26,7 +27,7 @@ The name of the images analysed is in cell A1 of the tab. The first two lines ar
 In each line of the table underneath are the measurements for each cell: cell area, mean fluorescence intensity, cell coordinates and cell dimentions (width and height).
 
 
-## Segmentation script
+# Segmentation scripts
 ###     Description
 Script to segment positive cells and measure the fluorescence intensity of this fluorophore in each segmented cells
 ###     Dialog box choices
@@ -36,7 +37,7 @@ Script to segment positive cells and measure the fluorescence intensity of this 
 - **Name of spreadsheet to create**: Give a name to the Excel spreadsheet that will have the results in
 
 
-## CoExpression script
+# CoExpression script
 ###      Description
 Script to segment positive cells and measure the fluorescence intensity of this fluorophore and of a second one in each segmented cells.
 ###      Dialog box choices
@@ -49,7 +50,7 @@ Script to segment positive cells and measure the fluorescence intensity of this 
 - **Name of spreadsheet to create**: Give a name to the Excel spreadsheet that will have the results in
 
 
-## Method 
+# For Method section
 A 200um wide area of interest was selected and thresholded (IsoData dark), a median filter (radius 2) was applied before positive cells were segmented with StarDist (cite paper below). Cell position, size and mean fluorescent intensities was exported to Excel for further analysis.
 
 
