@@ -1,4 +1,4 @@
-# Segmentation and CoExpression scripts Ying (Gould lab)
+# Cell Counting and CoExpression scripts (Gould lab)
 
 FIJI script to segment the number of positive cells in a specific channel in a 200um wide stretch of tissue. It will run through all the .tif files present in a directory and save the channel of interest with a mask of the ROIs of each positive cell identified in a newly created Treated_Images folder. It will create a new Excel speadsheet for each folder analysed and save the size, coordinates and mean fluorescence intensity for every cell segmented in each image.
 
@@ -32,7 +32,7 @@ This macro will help with the counting and the measurement of the area occupied 
 The macro is defining 10 area of identical size in the cortex, counts the number of positive cells in each area and measure the average nuclei size.
 
 
-# Segmentation scripts
+# Cell Counting script
 ###     Description
 Script to segment positive cells and measure the fluorescence intensity of this fluorophore in each segmented cells
 ###     Dialog box choices
