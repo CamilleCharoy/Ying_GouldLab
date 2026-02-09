@@ -26,6 +26,11 @@ For each folder analysed a new spreadsheet will be created, the measurements for
 The name of the images analysed is in cell A1 of the tab. The first two lines are showing the height of the area created, the thresholding method used and the value of the lower threshold used for that image.
 In each line of the table underneath are the measurements for each cell: cell area, mean fluorescence intensity, cell coordinates and cell dimentions (width and height).
 
+## Data Analysis
+The excel file YingCellAndAreaMeasures.xlsm can be used for data wrangling. On openning macro usage need to be enabled.
+This macro will help with the counting and the measurement of the area occupied by cells. You can indicate a lower threshold to discard any detection too small to be a healthy cell and an upper treshold to discard any detection too large to be an individual cell.
+The macro is defining 10 area of identical size in the cortex, counts the number of positive cells in each area and measure the average nuclei size.
+
 
 # Segmentation scripts
 ###     Description
@@ -48,6 +53,12 @@ Script to segment positive cells and measure the fluorescence intensity of this 
 - **2nd Channel**: Select the second channel to analyse (from 1 to 4)
 - **Staining Channel2**: name of the staining used
 - **Name of spreadsheet to create**: Give a name to the Excel spreadsheet that will have the results in
+
+
+## Data Analysis
+The excel file YingCoExpressionCounterV1.xlsm can be used for data wrangling. On openning macro usage need to be enabled.
+This macro will help with the counting and the measurement of the area occupied by cells. You can indicate a lower threshold to discard any detection too small to be a healthy cell and an upper treshold to discard any detection too large to be an individual cell.
+The macro is defining 10 area of identical size in the cortex, counts the number of positive cells in each area, measure the average area of positive nucleus stain and counts the number of co-expressing cells in each area.
 
 
 # For Method section
