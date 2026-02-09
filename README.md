@@ -29,6 +29,7 @@ In each line of the table underneath are the measurements for each cell: cell ar
 ## Data Analysis
 The excel file YingCellAndAreaMeasures.xlsm can be used for data wrangling. On openning macro usage need to be enabled.
 This macro will help with the counting and the measurement of the area occupied by cells. You can indicate a lower threshold to discard any detection too small to be a healthy cell and an upper treshold to discard any detection too large to be an individual cell.
+
 The macro is defining 10 area of identical size in the cortex, counts the number of positive cells in each area and measure the average nuclei size.
 
 
@@ -58,6 +59,7 @@ Script to segment positive cells and measure the fluorescence intensity of this 
 ## Data Analysis
 The excel file YingCoExpressionCounterV1.xlsm can be used for data wrangling. On openning macro usage need to be enabled.
 This macro will help with the counting and the measurement of the area occupied by cells. You can indicate a lower threshold to discard any detection too small to be a healthy cell and an upper treshold to discard any detection too large to be an individual cell.
+
 The macro is defining 10 area of identical size in the cortex, counts the number of positive cells in each area, measure the average area of positive nucleus stain and counts the number of co-expressing cells in each area.
 
 
